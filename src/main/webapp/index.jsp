@@ -7,7 +7,7 @@
     </head>
     <body>
         <h2 class="title">Calculator</h2>
-        <form action="/" method="POST">
+        <form action="/add" method="POST">
           <label for="num1">Enter First Number : </label><br>
           <input type="number" id="num1" name="num1" value="Enter First Number"><br> <br>
           <label for="num2">Enter Second Number : </label><br>
