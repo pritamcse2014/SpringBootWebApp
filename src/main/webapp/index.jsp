@@ -2,12 +2,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hello, World!</title>
-        <link rel="stylesheet" href="" />
+        <title>My Web Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
-        <h1 class="title">Hello World!</h1>
-        <p id="currentTime"></p>
+        <h2 class="title">Calculator</h2>
+        <form action="/" method="POST">
+          <label for="num1">Enter First Number : </label><br>
+          <input type="number" id="num1" name="num1" value="Enter First Number"><br> <br>
+          <label for="num2">Enter Second Number : </label><br>
+          <input type="number" id="num2" name="num2" value="Enter Second Number"><br><br>
+          <input type="submit" value="Submit">
+        </form>
         <script src=""></script>
     </body>
 </html>
