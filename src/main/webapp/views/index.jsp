@@ -3,7 +3,7 @@
 <html>
     <head>
         <title>My Web Page</title>
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="../style.css" />
     </head>
     <body>
         <h2 class="title">Calculator</h2>
