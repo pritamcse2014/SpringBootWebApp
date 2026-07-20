@@ -8,10 +8,10 @@
     <body>
         <h2 class="title">Calculator</h2>
         <form action="/add" method="POST">
-          <label for="num1">Enter First Number : </label><br>
-          <input type="number" id="num1" name="num1" value="Enter First Number"><br> <br>
-          <label for="num2">Enter Second Number : </label><br>
-          <input type="number" id="num2" name="num2" value="Enter Second Number"><br><br>
+          <label for="id">Enter ID : </label><br>
+          <input type="number" id="id" name="id" placeholder="Enter ID"><br> <br>
+          <label for="name">Enter Name : </label><br>
+          <input type="text" id="name" name="name" placeholder="Enter Name"><br> <br>
           <input type="submit" value="Submit">
         </form>
         <script src=""></script>

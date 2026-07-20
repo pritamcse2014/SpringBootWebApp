@@ -14,10 +14,12 @@ public class HomeController {
     }
 
     @RequestMapping("add")
-    public ModelAndView Add(@RequestParam("num1") int num1, @RequestParam("num2") int num2, ModelAndView model) {
+    public ModelAndView Add(@RequestParam("id") int id, @RequestParam("name") String name, ModelAndView model) {
         System.out.println("Add");
-        int result = num1 + num2 + 1;
-        model.addObject("result", result);
+        Alien alien =new Alien();
+        alien.setId(id);
+        alien.setName(name);
+        model.addObject("alien", alien);
         model.setViewName("result");
         return model;
     }
